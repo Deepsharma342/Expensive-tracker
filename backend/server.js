@@ -17,7 +17,10 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 app.use(express.json());
-app.use(cors());
+app.use(cors({
+  origin: "https://darling-daffodil-9db119.netlify.app/",
+  credentials: true
+}));
 
 app.use('/api/user', userRouter);
 
