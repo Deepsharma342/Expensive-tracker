@@ -1,5 +1,5 @@
 import express from "express";
-import {register,login} from "../controllers/userController.js";
+import {login} from "../controllers/userController.js";
 import authMiddleWare from "../middlewares/authMiddleware.js";
 import { addIncome,updateIncome,deleteIncome,getIncome } from "../controllers/incomeController.js";
 import { addExpense,updateExpense,deleteExpense,getExpenses } from "../controllers/expenseController.js";   
