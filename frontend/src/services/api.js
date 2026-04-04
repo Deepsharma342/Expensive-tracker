@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:4000/api/user",
+  baseURL: "https://darling-daffodil-9db119.netlify.app/api",
 });
 
 // 🔥 ADD THIS (important)
