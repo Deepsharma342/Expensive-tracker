@@ -6,7 +6,7 @@ import { addExpense,updateExpense,deleteExpense,getExpenses } from "../controlle
 
 const userRouter = express.Router();
 
-userRouter.post("/register", register);
+//userRouter.post("/register", register);
 userRouter.post("/login", login);
 
 // INCOME
