@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://darling-daffodil-9db119.netlify.app/api",
+  baseURL: "https://expensive-tracker-xknn.onrender.com/api",
 });
 
 // 🔥 ADD THIS (important)
