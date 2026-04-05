@@ -18,7 +18,7 @@ connectDB();
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://fascinating-vacherin-dbed93.netlify.app/api",
+  origin: "https://fascinating-vacherin-dbed93.netlify.app/",
   credentials: true
 }));
 
