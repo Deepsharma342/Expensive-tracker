@@ -17,8 +17,19 @@ const PORT = process.env.PORT || 4000;
 connectDB();
 
 app.use(express.json());
+const allowedOrigins = [
+  "http://localhost:5173",
+  "https://fascinating-vacherin-dbed93.netlify.app"
+];
+
 app.use(cors({
-  origin: "https://fascinating-vacherin-dbed93.netlify.app/",
+  origin: function (origin, callback) {
+    if (!origin || allowedOrigins.includes(origin)) {
+      callback(null, true);
+    } else {
+      callback(new Error("Not allowed by CORS"));
+    }
+  },
   credentials: true
 }));
 
