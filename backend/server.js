@@ -18,7 +18,7 @@ connectDB();
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://darling-daffodil-9db119.netlify.app",
+  origin: "https://jazzy-dieffenbachia-c8954b.netlify.app/",
   credentials: true
 }));
 
