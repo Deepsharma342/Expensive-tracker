@@ -18,7 +18,7 @@ connectDB();
 
 app.use(express.json());
 app.use(cors({
-  origin: "https://jazzy-dieffenbachia-c8954b.netlify.app/",
+  origin: "https://glittering-capybara-93ed98.netlify.app/api",
   credentials: true
 }));
 
