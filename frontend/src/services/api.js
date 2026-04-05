@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://expensive-tracker-xknn.onrender.com/api",
+  baseURL: "https://expensive-tracker-xknn.onrender.com/api/user",
 });
 
 // 🔥 ADD THIS (important)
